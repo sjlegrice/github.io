@@ -10,21 +10,17 @@
 
   <title>Contact Us - Shine on a Dime</title>
 
-  
-    
-  
-    
-  
-    
+
+
+
+
+
+
       <link href="static/bundles/mainapp.css" rel="stylesheet">
-    
-  
 
-  
 
-  
 
-  
+
 </head>
 
 <body>
@@ -41,7 +37,7 @@
           <ul class="navbar-nav mx-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-            <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
             <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
           </ul>
 
@@ -55,16 +51,40 @@
 
   <main>
     <div class="container-fluid">
+
+  <div class="row mt-5">
+    <div class="col-lg pt-4 contact-page">
       <div class="row">
-        <div class="col-12">
-          
+        <div class="offset-lg-3 col-lg-6">
+          <div class="p-3 contact-header">
+            <h1 class="font-weight-bold">Contact Us</h1>
+
+            <p class="mb-0">Please fill out this form</p>
+          </div>
+
+          <form class="p-3 bg-white" action="https://formspree.io/sjlegrice@gmail.com" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name <span class="text-danger">*</span></label>
+              <input id="name" class="form-control" type="text" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail <span class="text-danger">*</span></label>
+              <input id="email" class="form-control" type="email" name="email" required>
+              <small class="form-text text-muted">example@example.com</small>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span class="text-danger">*</span></label>
+              <textarea id="message" class="form-control" name="message" rows="6" required></textarea>
+            </div>
+
+            <div class="form-group text-center mb-0">
+              <button class="btn btn-secondary" type="submit">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
-
-      
-  <div class="row mt-5 pt-4">
-    <div class="col-lg">
-      <h1>Contact Us</h1>
     </div>
   </div>
 
@@ -73,19 +93,19 @@
 
   <footer>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row py-4">
         <div class="col-12 text-center">
-          <a href="" target="_blank">
-            <span class="feather-icon" data-feather="facebook"></span>
+          <a class="social-icon" href="https://www.facebook.com/shineonadimenc/" target="_blank">
+            <img src="static/images/facebook.png" alt="Facebook Icon">
           </a>
-          <a href="" target="_blank">
-            <span class="feather-icon" data-feather="twitter"></span>
+          <a class="social-icon" href="https://twitter.com/shineonadimenc/" target="_blank">
+            <img src="static/images/twitter.png" alt="Twitter Icon">
           </a>
-          <a href="" target="_blank">
-            <span class="feather-icon" data-feather="instagram"></span>
+          <a class="social-icon" href="https://www.instagram.com/shineonadimenc/" target="_blank">
+            <img src="static/images/instagram.png" alt="Instagram Icon">
           </a>
-          <a href="" target="_blank">
-            <span class="feather-icon" data-feather="pinterest"></span>
+          <a class="social-icon" href="https://www.pinterest.com/shineonadimenc/" target="_blank">
+            <img src="static/images/pinterest.png" alt="Pinterest Icon">
           </a>
         </div>
       </div>
@@ -104,23 +124,7 @@
     </div>
   </footer>
 
-  
-    
-      <script src="static/bundles/vendors~index.js"></script>
-    
-  
-    
-      <script src="static/bundles/index.js"></script>
-    
-  
-    
-      <script src="static/bundles/mainapp.js"></script>
-    
-  
 
-  
-
-  
 </body>
 
 </html>
