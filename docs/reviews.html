@@ -10,54 +10,88 @@
 
   <title>Reviews - Shine on a Dime</title>
 
-
-
-
-
-
-
-      <link href="static/bundles/mainapp.css" rel="stylesheet">
-
-
-
-
+  <link href="static/bundles/mainapp.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Shine on a Dime</a>
+        <div class="w-100 d-flex justify-content-between">
+          <a class="navbar-brand" href="index.html">Shine on a Dime</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle Navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
 
-        <div class="collapse navbar-collapse" id="navbar-main">
+        <div class="collapse navbar-collapse justify-content-center" id="navbar-main">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
-          </ul>
-
-          <ul class="nav navbar-nav">
-            <li class="nav-item phone-number">(919) 417-2637</li>
+            <li class="nav-item px-2"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="reviews.html">Reviews</a></li>
           </ul>
         </div>
+
+        <ul class="nav navbar-nav w-100 justify-content-end">
+          <li class="nav-item phone-number mt-2 mt-lg-0">(919) 417-2637</li>
+        </ul>
       </div>
     </nav>
   </header>
 
   <main>
     <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-lg pt-4 reviews-page">
+          <h4 class="mb-3">Here is what a few of our customers had to say about our products and services:</h4>
 
-  <div class="row mt-5">
-    <div class="col-lg pt-4 reviews-page">
-      <h1>Reviews</h1>
-    </div>
-  </div>
+          <div class="card m-2">
+            <div class="card-body">
+              <h5 class="card-title">"Beautiful blouse in mint condition. Thank you!"</h5>
 
+              <p class="card-text pl-3"> - <em>Foxyshadow82</em> purchased BETSEY JOHNSON Silk Black Sheer Parrot Sequined Blouse</p>
+            </div>
+          </div>
+
+          <div class="card m-2">
+            <div class="card-body">
+              <h5 class="card-title">"I LOVE THIS ANN TAYLOR SLEEVELESS TOO SO MUCH!! THANK YOU!!"</h5>
+
+              <p class="card-text pl-3"> - <em>Dreamybunny45</em> purchased ANN TAYLOR Yellow Draped Modal Sleeveless Blouse</p>
+            </div>
+          </div>
+
+          <div class="card m-2">
+            <div class="card-body">
+              <h5 class="card-title">"Super purchase, quality and price! Love this seller!"</h5>
+
+              <p class="card-text pl-3"> - <em>Beckytat</em> purchased BANANA REPUBLIC Black Stretch Dress</p>
+            </div>
+          </div>
+
+          <div class="card m-2">
+            <div class="card-body">
+              <h5 class="card-title">"Great dress!! Great seller!! Will be back for more! 5 STARS!! THANK YOU!!!"</h5>
+
+              <p class="card-text pl-3"> - <em>Tigeron73</em> purchased ANN TAYLOR Stretch Black/White Wrap Dress</p>
+            </div>
+          </div>
+
+          <div class="card m-2">
+            <div class="card-body">
+              <h5 class="card-title">"As described. Seller is very communicative. Would buy from again. Thank you!"</h5>
+
+              <p class="card-text pl-3"> - <em>Cant74</em> purchased MARC JACOBS Olive Green Denim Frayed Skirt</p>
+            </div>
+          </div>
+
+          <p>This is only a few of the many reviews in my eBay store at <a href="http://shineonadime.com">shineonadime.com</a>. Over 1k positive reviews on the site so feel free to view more!</p>
+
+          <p>Thank you for shopping at Shine on a Dime!</p>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -88,13 +122,15 @@
 
       <div class="row">
         <div class="col-12 text-center">
-          <p>Goldsboro, NC</p>
+          <p class="font-weight-normal">Goldsboro, NC</p>
         </div>
       </div>
     </div>
   </footer>
 
-
+  <script src="static/bundles/vendors~index.js"></script>
+  <script src="static/bundles/index.js"></script>
+  <script src="static/bundles/mainapp.js"></script>
 </body>
 
 </html>

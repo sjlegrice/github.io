@@ -7100,8 +7100,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-body {
-  font-family: "Poiret One", sans-serif; }
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: "Poiret One", sans-serif;
+  font-weight: bold; }
 
 header .navbar {
   background-color: #f3ebdd;
@@ -7112,15 +7113,14 @@ header .navbar {
 header .navbar .navbar-brand {
   color: #827682;
   font-size: 1.25rem;
-  font-weight: bold;
   letter-spacing: 0.1rem; }
 
 header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link a {
   color: #827682;
   font-size: 0.75rem;
-  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.1rem; }
+  letter-spacing: 0.1rem;
+  white-space: nowrap; }
 
 header .navbar .nav-item.phone-number {
   color: #000000; }
@@ -7136,6 +7136,10 @@ footer .social-icon {
 footer .social-icon img {
   width: 1.2rem;
   height: 1.2rem; }
+
+.btn {
+  font-weight: bold;
+  text-transform: uppercase; }
 
 .home-page {
   background-image: url("../images/background.jpg");

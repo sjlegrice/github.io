@@ -10,82 +10,72 @@
 
   <title>About Us - Shine on a Dime</title>
 
-
-
-
-
-
-
-      <link href="static/bundles/mainapp.css" rel="stylesheet">
-
-
-
-
+  <link href="static/bundles/mainapp.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Shine on a Dime</a>
+        <div class="w-100 d-flex justify-content-between">
+          <a class="navbar-brand" href="index.html">Shine on a Dime</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle Navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
 
-        <div class="collapse navbar-collapse" id="navbar-main">
+        <div class="collapse navbar-collapse justify-content-center" id="navbar-main">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
-          </ul>
-
-          <ul class="nav navbar-nav">
-            <li class="nav-item phone-number">(919) 417-2637</li>
+            <li class="nav-item px-2"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="reviews.html">Reviews</a></li>
           </ul>
         </div>
+
+        <ul class="nav navbar-nav w-100 justify-content-end">
+          <li class="nav-item phone-number mt-2 mt-lg-0">(919) 417-2637</li>
+        </ul>
       </div>
     </nav>
   </header>
 
   <main>
     <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-lg pt-4 about-page">
+          <div class="row row-eq-height">
+            <div class="col-lg-6 p-5">
+              <img class="img-fluid" src="static/images/about-1.jpg" alt="Shopping online image">
+            </div>
 
-  <div class="row mt-5">
-    <div class="col-lg pt-4 about-page">
-      <div class="row row-eq-height">
-        <div class="col-lg-6 p-5">
-          <img class="img-fluid" src="static/images/about-1.jpg" alt="Shopping online image">
-        </div>
+            <div class="col-lg-6 d-flex align-items-center">
+              <p class="p-5 text-center">Shine on a dime is an online clothing store specializing in selling designer clothing, shoes, and handbags for women and men at an affordable price.  A few of the designers we carry are Kate Spade, Anthropologie, Banana Republic, J. Crew, White House Black Market, Laundry, BCBG, Ralph Lauren, bebe, Ann Taylor, and many more!</p>
+            </div>
+          </div>
 
-        <div class="col-lg-6 d-flex align-items-center">
-          <p class="p-5 text-center">Shine on a dime is an online clothing store specializing in selling designer clothing, shoes, and handbags for women and men at an affordable price.  A few of the designers we carry are Kate Spade, Anthropologie, Banana Republic, J. Crew, White House Black Market, Laundry, BCBG, Ralph Lauren, bebe, Ann Taylor, and many more!</p>
+          <div class="row row-eq-height">
+            <div class="col-lg-6 d-flex align-items-center">
+              <p class="p-5 text-center">We do accept consignments but only accept designer brands.  Please use the contact us form to find out more!</p>
+            </div>
+
+            <div class="col-lg-6 p-5">
+              <img class="img-fluid" src="static/images/about-2.jpg" alt="Clothing rack image">
+            </div>
+          </div>
+
+          <div class="row row-eq-height">
+            <div class="col-lg-6 p-5">
+              <img class="img-fluid" src="static/images/about-3.jpg" alt="Ladies shopping image">
+            </div>
+
+            <div class="col-lg-6 d-flex align-items-center">
+              <p class="p-5 text-center">Inventory is constantly changing so be sure to check back often and happy shopping!</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="row row-eq-height">
-        <div class="col-lg-6 d-flex align-items-center">
-          <p class="p-5 text-center">We do accept consignments but only accept designer brands.  Please use the contact us form to find out more!</p>
-        </div>
-
-        <div class="col-lg-6 p-5">
-          <img class="img-fluid" src="static/images/about-2.jpg" alt="Clothing rack image">
-        </div>
-      </div>
-
-      <div class="row row-eq-height">
-        <div class="col-lg-6 p-5">
-          <img class="img-fluid" src="static/images/about-3.jpg" alt="Ladies shopping image">
-        </div>
-
-        <div class="col-lg-6 d-flex align-items-center">
-          <p class="p-5 text-center">Inventory is constantly changing so be sure to check back often and happy shopping!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
     </div>
   </main>
 
@@ -116,13 +106,15 @@
 
       <div class="row">
         <div class="col-12 text-center">
-          <p>Goldsboro, NC</p>
+          <p class="font-weight-normal">Goldsboro, NC</p>
         </div>
       </div>
     </div>
   </footer>
 
-
+  <script src="static/bundles/vendors~index.js"></script>
+  <script src="static/bundles/index.js"></script>
+  <script src="static/bundles/mainapp.js"></script>
 </body>
 
 </html>
