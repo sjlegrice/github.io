@@ -7129,20 +7129,23 @@ footer {
   background-color: #f3ebdd;
   box-shadow: 0 50vh 0 50vh #f3ebdd; }
 
-.feather-icon {
-  /* 1 rem is typically 16 px */
-  width: 1rem;
-  height: 1rem; }
+footer .social-icon {
+  text-decoration: none;
+  padding: 0.1rem 0.1rem; }
 
-.home-image {
-  background-image: url("./static/images/background.jpg");
+footer .social-icon img {
+  width: 1.2rem;
+  height: 1.2rem; }
+
+.home-page {
+  background-image: url("../images/background.jpg");
   background-color: #f3ebdd;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.home-image .home-circle {
+.home-page .home-circle {
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -7150,4 +7153,10 @@ footer {
   position: absolute;
   right: 100px;
   bottom: -20px; }
+
+.contact-page {
+  background-color: #eee; }
+
+.contact-page .contact-header {
+  background-color: #ddd; }
 
