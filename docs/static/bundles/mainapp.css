@@ -7145,7 +7145,7 @@ footer .social-icon img {
   background-image: url("../images/background.jpg");
   background-color: #f3ebdd;
   height: 500px;
-  background-position: center;
+  background-position: 50% 20%;
   background-repeat: no-repeat;
   background-size: cover; }
 
