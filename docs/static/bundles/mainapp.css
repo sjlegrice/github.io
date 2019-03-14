@@ -7118,6 +7118,7 @@ header .navbar .nav-item .nav-link, header .navbar .nav-item .nav-link a {
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  text-shadow: 1px 0 black;
   white-space: nowrap; }
 
 header .navbar .nav-item.phone-number {
