@@ -7155,8 +7155,14 @@ footer .social-icon img {
   border-radius: 50%;
   background-color: white;
   position: absolute;
-  right: 100px;
-  bottom: -20px; }
+  bottom: -20px;
+  right: 100px; }
+
+@media screen and (max-width: 1199px) {
+  .home-page .home-circle {
+    right: 50%;
+    transform: translate(50%, 0); }
+}
 
 .contact-page {
   background-color: #eee; }
