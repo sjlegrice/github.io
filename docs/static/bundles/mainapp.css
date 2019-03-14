@@ -7168,10 +7168,6 @@ footer .social-icon img {
 .contact-page .contact-header {
   background-color: #ddd; }
 
-.reviews-page .card .card-title {
-  font-size: 0.9em;
-}
-
-.reviews-page .card .card-text {
+.reviews-page .card .card-title, .reviews-page .card .card-text {
   font-size: 0.8em;
 }
